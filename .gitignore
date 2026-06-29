@@ -1,0 +1,37 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Data and outputs
+data/
+*.mdb
+*.pkl
+*.csv
+*.rar
+*.zip
+*.tar.gz
+output.txt
+
+# Checkpoints and logs
+checkpoints/
+logs/
+*.pth
+*.pt
