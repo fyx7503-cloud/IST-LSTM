@@ -19,8 +19,6 @@ IST-LSTM/
 │   ├── mdb_to_csv.py     # MDB 转 CSV 工具
 │   ├── physicgraph.py    # 物理图构建
 │   └── process_njmetro_afc.py  # 南京地铁 AFC 数据处理
-├── tests/                # 单元测试
-│   └── test_mdb_to_csv.py
 ├── tools/                # 可视化与辅助工具
 │   ├── plotline.py       # 折线图绘制
 │   ├── zhuzhuangtu.py    # 柱状图绘制
@@ -176,19 +174,6 @@ On average over 4 horizons, Test MAE: x.xxxx, Test MAPE: x.xxxx, Test RMSE: x.xx
 ```
 
 训练过程中每个 epoch 的模型权重会保存在 `--save` 指定的目录中。
-
-## 单元测试
-
-```bash
-python -m unittest tests.test_mdb_to_csv -v
-```
-
-或：
-
-```bash
-cd tests
-python test_mdb_to_csv.py
-```
 
 ## 可视化工具
 
