@@ -57,6 +57,16 @@ pip install numpy pandas matplotlib seaborn scipy networkx pyodbc
 
 ## 数据准备及处理
 
+### 完整数据集下载
+
+南京地铁 AFC 原始数据集（`4.2 NJAFC.rar`）因文件较大（约 6.9GB），未上传至 GitHub，请通过百度网盘下载：
+
+- **链接**：https://pan.baidu.com/s/1csGXgEbPAnqrUb_5IbSmpA?pwd=7890
+- **提取码**：`7890`
+- **文件名**：`4.2 NJAFC.rar`
+
+下载后解压并将其中的原始数据文件（如 `0916.mdb`）放置于项目根目录或指定输入路径，再按照下方流程进行数据预处理。
+
 ### 已有数据集
 
 仓库中已包含部分预处理后的数据：
