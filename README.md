@@ -65,7 +65,7 @@ pip install numpy pandas matplotlib seaborn scipy networkx pyodbc
 - **提取码**：`7890`
 - **文件名**：`4.2 NJAFC.rar`
 
-下载后解压并将其中的原始数据文件（如 `0916.mdb`）放置于项目根目录或指定输入路径，再按照下方流程进行数据预处理。
+下载后解压并将其中的原始数据文件（如 `0916.mdb`）放置于项目根目录或指定输入路径，再通过scripts/mdb_to_csv.py脚本进行数据预处理。
 
 ### 已有数据集
 
@@ -193,18 +193,4 @@ On average over 4 horizons, Test MAE: x.xxxx, Test MAPE: x.xxxx, Test RMSE: x.xx
 - `tools/zhuzhuangtu.py`：柱状图绘制
 - `tools/创建物理图.py`：物理网络拓扑图绘制
 
-可以直接运行：
 
-```bash
-python tools/plotline.py
-```
-
-## 注意事项
-
-1. **大文件限制**：`0916.mdb`（约 380MB）、`data/nanjing/4.2 NJAFC.rar`（约 6.9GB）和 `data/shanghai/train.pkl`（约 144MB）因超过 GitHub 单文件 100MB 限制，未包含在仓库中，需要自行准备。
-2. **数据路径**：运行训练前请确保 `data/` 下对应数据集的文件完整。
-3. **CUDA 版本**：请根据本地 GPU 驱动选择合适的 PyTorch CUDA 版本。
-
-## 引用
-
-本项目对应论文《基于时空异质特征解耦的交通流量预测方法研究》。
