@@ -21,13 +21,13 @@ venv/
 env/
 
 # Data and outputs
-data/
+data/nanjing/4.2 NJAFC.rar
+data/shanghai/train.pkl
 *.mdb
-*.pkl
-*.csv
 *.rar
 *.zip
 *.tar.gz
+*.baiduyun.uploading.cfg
 output.txt
 
 # Checkpoints and logs
